@@ -1,0 +1,16 @@
+my experience with fortran 77
+
+   it takes me a while to get fortran compiler and i can only found
+   the 90 once since it is the only one that people
+   actually do tutorial and most IDE use.
+   
+   However, i coded my program follow the 77 guideline
+   at first it was some what confusing, i actually think
+   that i need to put the word CONTINUE next to each column label
+   turn out it isn't and i have to fix my entire program
+   using a do while loop.
+
+   I did not do the sorting part just get 20 number from user and
+   check the array to see, whether the target is there or not.
+   when i finish the program it looks some what easy,
+   however i spend a lot of time doing such easy thing.

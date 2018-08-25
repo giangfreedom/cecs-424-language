@@ -1,0 +1,31 @@
+c COMMENT
+       PROGRAM SORTNSEARCH
+       CHARACTER found
+       REAL target
+
+
+       WRITE(*,*) 'PLEASE ENTER THE LIST OF NUMBER'
+       READ(1,*) (X(I), I = 1,NPTS) // array? 1000
+       SORT THE ARRAY
+
+ 25    WRITE(*,*) 'PLEASE ENTER THE NUMBER YOU WANT TO SEARCH'
+       READ(*,*) target	
+       
+ 50    IF(X(I) .LT. target, I = 1,1000)
+              GO TO 50
+       IF(X(I) .EQ. target)
+              GO TO 500
+ 500   WRITE(*,*) 'WE FOUND target'
+       
+       
+       IF(X(I) .GT. target)
+              GO TO 1000
+
+ 1000  WRITE(*,*) 'target is not in list please enter another target'
+               GO TO 25
+	
+       //DO 15,IYEAR = 1,NYEARS
+       DO 15, item .SL. target,NYEARS
+       AMOUNT = AMOUNT + (AMOUNT * RATE) - REPAY
+       WRITE(UNIT=*, FMT=*) IYEAR, AMOUNT
+ 15    CONTINUE
