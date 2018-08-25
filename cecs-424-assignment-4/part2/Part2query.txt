@@ -1,0 +1,175 @@
+1 ?- start.
+
+Enter commands using standard Prolog syntax.
+Available commands are:
+start.                   -- to start the game.
+n.  s.  e.  w.  u.  d.   -- to go in that direction.
+take(Object).            -- to pick up an object.
+drop(Object).            -- to put down an object.
+kill.                    -- to attack an enemy.
+look.                    -- to look around you again.
+instructions.            -- to see this message again.
+halt.                    -- to end the game and quit.
+i.                      -- to check inventory.
+
+You are in a place where legend are born.To the north is the herotown
+to the west is the forge, to the south is hydra_den
+
+There is a key here.
+
+true.
+
+2 ?- take(key).
+OK.
+true.
+
+3 ?- w.
+You are in a place where legendary weapon and armor are make
+
+There is a sword here.
+
+true.
+
+4 ?- take(sword).
+OK.
+true.
+
+5 ?- e.
+You are in a place where legend are born.To the north is the herotown
+to the west is the forge, to the south is hydra_den
+
+
+true.
+
+6 ?- s.
+There is a giant hydra here!
+I would advise you to leave promptly and quitely...
+
+There is a shield here.
+
+true.
+
+7 ?- u.
+You are on top of a giant hydra, standing in a sticky
+hardened scale.  The smell is awful.
+
+
+true.
+
+8 ?- kill.
+You slash your mighty sword at its head
+the sword cut the hydra head and you win
+true.
+
+9 ?- d.
+There is a giant dead hydra here!
+
+There is a shield here.
+
+true.
+
+10 ?- take(shield).
+OK.
+true.
+
+11 ?- n.
+You are in a place where legend are born.To the north is the herotown
+to the west is the forge, to the south is hydra_den
+
+
+true.
+
+12 ?- n.
+You are in a hero town.  To the north is the palace_entrance
+to the south is the hero_summon_house, to the west is temple
+
+
+true.
+
+13 ?- w.
+You are in a holy temple.  To the east is the hero town
+
+There is a armor here.
+
+true.
+
+14 ?- take(armor).
+OK.
+true.
+
+15 ?- i.
+you have key.
+checking for sword.
+you have sword.
+checking for armor.
+you have armor.
+checking for shield.
+you have shield.
+true .
+
+16 ?- w.
+You can't go that way.
+true.
+
+17 ?- e.
+You are in a hero town.  To the north is the palace_entrance
+to the south is the hero_summon_house, to the west is temple
+
+
+true.
+
+18 ?- n.
+to the east of this entrance is the palace.
+to the south is the herotown
+
+
+true.
+
+19 ?- e.
+There is a giant dragon here!
+I would advise you to leave promptly and quitely...
+
+
+true.
+
+20 ?- u.
+You are on top of a giant dragon, standing in a rough
+hardened scale.  The smell is awful.
+
+There is a princess here.
+
+true.
+
+21 ?- kill.
+You slash your mighty sword at its head
+the sword cut the dragon head but you also get burn
+your mighty armor blocked the dragon breath 
+you raise your shield to block the dragon sharp claw strike
+mighty hero you have success in slaying the dragon
+true.
+
+22 ?- take(princess).
+OK.
+true.
+
+23 ?- d.
+There is a giant dead dragon here!
+
+
+true.
+
+24 ?- w.
+to the east of this entrance is the palace.
+to the south is the herotown
+
+
+true.
+
+25 ?- s.
+Congratulations!!  You have ruecued the princess
+and won the game.
+
+The game is over. Please enter the   halt.   command.
+
+
+true.
